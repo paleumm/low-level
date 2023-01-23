@@ -100,3 +100,7 @@ so that we can run build and run the kernel in a single command.
 ```
 make rustvm
 ```
+For rust analyzer
+```
+make rust-analyzer
+```
