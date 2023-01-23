@@ -4,6 +4,8 @@ This section is referenced from [ Mentorship Session: Setting Up an Environment 
  
 ## Instruction
 
+[bridge the vm](https://getlabsdone.com/how-to-connect-kvm-vm-to-host-network/)
+
 Update & Upgrade the VM.
 ```
 sudo apt update 
