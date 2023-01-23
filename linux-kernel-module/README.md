@@ -21,7 +21,7 @@ Add this to .bashrc file.
 ```
 export PATH="/root/.cargo/bin:${PATH}"
 export MAKEFLAGS="-j4"
-export LLVM="1
+export LLVM="1"
 ```
 > -j4 means use 4 core
 
