@@ -1,0 +1,25 @@
+[package]
+name = "file-storage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bincode = "^1"
+serde = "^1"
+serde_cbor = "^0.8"
+serde_derive = "^1"
+serde_json = "^1"
+
+[[bin]]
+name = "sde"
+path = "src/serde-t.rs"
+
+[[bin]]
+name = "fv1"
+path = "src/fview1.rs"
+
+[[bin]]
+name = "fv2"
+path = "src/fview2.rs"
